@@ -1,6 +1,9 @@
 -- Quelles communes cumulent faible accessibilité et faible niveau de vie ?
--- Typologie relative au département : seuils = médianes des communes du 95.
--- Les communes sans revenu médian publié (secret statistique) sont non classées.
+-- Seuils = valeurs du Val-d'Oise dans son ensemble, pondérées par la population :
+--   accessibilité : APL moyenne du département, pondérée par la population standardisée.
+--   niveau de vie : médiane départementale publiée par l'INSEE (Filosofi 2023, onglet DEP).
+-- Une médiane des communes, non pondérée, serait tirée par les petits villages.
+-- Les communes sans médiane publiée (secret statistique) sont non classées.
 CREATE OR REPLACE VIEW typologie_95 AS
 WITH base AS (
     SELECT
@@ -19,9 +22,8 @@ WITH base AS (
 ),
 seuils AS (
     SELECT
-        median(apl_mg)        AS seuil_apl,
-        median(revenu_median) AS seuil_revenu
-    FROM base
+        (SELECT sum(apl_mg * pop_standardisee) / sum(pop_standardisee) FROM base) AS seuil_apl,
+        (SELECT revenu_median FROM revenu_dep WHERE departement = '95')         AS seuil_revenu
 )
 SELECT
     b.*,

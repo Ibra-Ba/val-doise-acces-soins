@@ -3,6 +3,7 @@
 Tables créées (France entière, le filtre Val-d'Oise est fait en SQL) :
   apl(code_commune, commune, annee, apl_mg, apl_mg_moins65, pop_standardisee, population)
   revenu(code_commune, revenu_median, taux_pauvrete)
+  revenu_dep(departement, revenu_median, taux_pauvrete)
 """
 from pathlib import Path
 
@@ -28,13 +29,13 @@ APL_POSITIONS = {
     7: "population",        # pour compter des habitants et calculer des quantiles
 }
 
-FILO_FILE = RAW / "filosofi_communes.csv"
-FILO_SEP = ";"
-FILO_COLS = {  # à remplacer par les noms du fichier Filosofi 2023 (voir son dictionnaire)
-    "CODGEO": "code_commune",
-    "MED21": "revenu_median",
-    "TP6021": "taux_pauvrete",
-}
+# Fichier INSEE « Revenus et pauvreté des ménages en 2023 - Tous les niveaux
+# géographiques » (FILOSOFI_CC_2023_FR.xlsx), onglet des communes.
+FILO_FILE = RAW / "filosofi_2023.xlsx"
+FILO_SHEET = "COM"
+FILO_SKIPROWS = 5  # titre, lignes vides, intitulés, ligne « GEO / Géographie »
+FILO_POSITIONS = {0: "code_commune", 2: "revenu_median", 3: "taux_pauvrete"}
+FILO_SHEET_DEP = "DEP"  # valeurs départementales, servent de seuils à la typologie
 # -----------------------------------------------------------------------------
 
 
@@ -60,26 +61,35 @@ def lire_apl() -> pd.DataFrame:
 
 
 def lire_revenu() -> pd.DataFrame:
-    df = pd.read_csv(FILO_FILE, sep=FILO_SEP, dtype=str)
-    manquantes = set(FILO_COLS) - set(df.columns)
-    if manquantes:
-        raise SystemExit(
-            f"Filosofi : colonnes introuvables {sorted(manquantes)}.\n"
-            f"Colonnes lues : {list(df.columns)}\nAjuster FILO_SEP ou FILO_COLS."
-        )
-    rev = df[list(FILO_COLS)].rename(columns=FILO_COLS)
-    rev["code_commune"] = rev["code_commune"].str.strip().str.zfill(5)
-    # Les valeurs sous secret statistique (« s », « nd ») deviennent NULL.
+    df = pd.read_excel(FILO_FILE, sheet_name=FILO_SHEET, header=None,
+                       skiprows=FILO_SKIPROWS, dtype=str)
+    rev = df.iloc[:, list(FILO_POSITIONS)]
+    rev.columns = list(FILO_POSITIONS.values())
+    rev = rev[rev["code_commune"].str.strip().str.len() == 5].copy()  # écarte la note de source
+    rev["code_commune"] = rev["code_commune"].str.strip()
+    # « s » = secret statistique -> NULL.
     for col in ("revenu_median", "taux_pauvrete"):
-        rev[col] = pd.to_numeric(rev[col].str.replace(",", "."), errors="coerce")
+        rev[col] = pd.to_numeric(rev[col], errors="coerce")
     return rev
 
 
+def lire_revenu_dep() -> pd.DataFrame:
+    df = pd.read_excel(FILO_FILE, sheet_name=FILO_SHEET_DEP, header=None,
+                       skiprows=FILO_SKIPROWS, dtype=str)
+    dep = df.iloc[:, [0, 2, 3]]
+    dep.columns = ["departement", "revenu_median", "taux_pauvrete"]
+    dep = dep[dep["departement"].str.strip().str.len().between(2, 3)].copy()
+    for col in ("revenu_median", "taux_pauvrete"):
+        dep[col] = pd.to_numeric(dep[col], errors="coerce")
+    return dep
+
+
 def main() -> None:
-    apl, revenu = lire_apl(), lire_revenu()
+    apl, revenu, revenu_dep = lire_apl(), lire_revenu(), lire_revenu_dep()
     con = duckdb.connect(str(DB))
     con.execute("CREATE OR REPLACE TABLE apl AS SELECT * FROM apl")
     con.execute("CREATE OR REPLACE TABLE revenu AS SELECT * FROM revenu")
+    con.execute("CREATE OR REPLACE TABLE revenu_dep AS SELECT * FROM revenu_dep")
     for table in ("apl", "revenu"):
         total = con.execute(f"SELECT count(*) FROM {table}").fetchone()[0]
         vo = con.execute(

@@ -1,0 +1,184 @@
+code_commune,commune,population,apl_mg,revenu_median,taux_pauvrete,classe
+95280,Goussainville,30952.0,1.59,19960.0,31.8,1. Double fragilité
+95500,Pontoise,31623.0,1.65,24740.0,21.6,1. Double fragilité
+95018,Argenteuil,107135.0,1.68,21300.0,29.8,1. Double fragilité
+95063,Bezons,34314.0,1.96,23780.0,23.4,1. Double fragilité
+95019,Arnouville,14898.0,1.96,22380.0,25.0,1. Double fragilité
+95250,Fosses,10249.0,2.04,25610.0,15.0,1. Double fragilité
+95351,Louvres,12226.0,2.09,25030.0,17.0,1. Double fragilité
+95052,Beaumont-sur-Oise,9931.0,2.13,25120.0,17.0,1. Double fragilité
+95680,Villiers-le-Bel,29238.0,2.16,17750.0,39.4,1. Double fragilité
+95268,Garges-lès-Gonesse,42388.0,2.18,17320.0,40.8,1. Double fragilité
+95427,Montmagny,14632.0,2.24,23890.0,23.0,1. Double fragilité
+95585,Sarcelles,58576.0,2.37,18180.0,37.3,1. Double fragilité
+95447,Neuilly-en-Vexin,238.0,0.75,29480.0,,2. Faible accessibilité seule
+95303,Le Heaulme,206.0,0.75,32930.0,,2. Faible accessibilité seule
+95370,Marines,3508.0,0.91,29440.0,8.0,2. Faible accessibilité seule
+95298,Haravilliers,582.0,0.91,34660.0,,2. Faible accessibilité seule
+95102,Bréançon,425.0,0.91,34980.0,,2. Faible accessibilité seule
+95301,Haute-Isle,291.0,0.95,30830.0,,2. Faible accessibilité seule
+95059,Berville,370.0,0.96,32260.0,,2. Faible accessibilité seule
+95142,Chars,2017.0,1.12,28680.0,,2. Faible accessibilité seule
+95110,Brignancourt,243.0,1.13,30850.0,,2. Faible accessibilité seule
+95656,Vienne-en-Arthies,360.0,1.15,33970.0,,2. Faible accessibilité seule
+95213,Épiais-Rhus,607.0,1.22,33720.0,,2. Faible accessibilité seule
+95177,Cormeilles-en-Vexin,1294.0,1.24,30830.0,,2. Faible accessibilité seule
+95287,Grisy-les-Plâtres,706.0,1.25,34930.0,,2. Faible accessibilité seule
+95379,Maudétour-en-Vexin,203.0,1.25,34550.0,,2. Faible accessibilité seule
+95258,Frouville,347.0,1.27,36100.0,,2. Faible accessibilité seule
+95023,Arronville,619.0,1.29,34240.0,,2. Faible accessibilité seule
+95046,Banthelu,148.0,1.29,32460.0,,2. Faible accessibilité seule
+95254,Frémécourt,535.0,1.29,33450.0,,2. Faible accessibilité seule
+95295,Guiry-en-Vexin,151.0,1.35,34350.0,,2. Faible accessibilité seule
+95690,Wy-dit-Joli-Village,329.0,1.38,35370.0,,2. Faible accessibilité seule
+95628,Valmondois,1209.0,1.41,32860.0,,2. Faible accessibilité seule
+95150,Chaussy,634.0,1.41,30560.0,,2. Faible accessibilité seule
+95054,Le Bellay-en-Vexin,219.0,1.42,32100.0,,2. Faible accessibilité seule
+95304,Hédouville,280.0,1.45,38340.0,,2. Faible accessibilité seule
+95676,Villers-en-Arthies,487.0,1.45,30180.0,,2. Faible accessibilité seule
+95157,Chérence,128.0,1.46,29590.0,,2. Faible accessibilité seule
+95566,Saint-Martin-du-Tertre,2662.0,1.48,28980.0,10.0,2. Faible accessibilité seule
+95270,Genainville,521.0,1.52,30270.0,,2. Faible accessibilité seule
+95229,Ézanville,9789.0,1.54,27970.0,13.0,2. Faible accessibilité seule
+95429,Montreuil-sur-Epte,382.0,1.56,30850.0,,2. Faible accessibilité seule
+95462,Omerville,325.0,1.59,30020.0,,2. Faible accessibilité seule
+95627,Vallangoujard,616.0,1.61,36220.0,,2. Faible accessibilité seule
+95637,Vauréal,16079.0,1.62,28160.0,13.0,2. Faible accessibilité seule
+95523,La Roche-Guyon,423.0,1.64,29200.0,,2. Faible accessibilité seule
+95024,Arthies,267.0,1.65,29110.0,,2. Faible accessibilité seule
+95438,Moussy,111.0,1.67,32790.0,,2. Faible accessibilité seule
+95651,Vétheuil,867.0,1.68,30020.0,,2. Faible accessibilité seule
+95328,Labbeville,641.0,1.7,31980.0,,2. Faible accessibilité seule
+95584,Santeuil,660.0,1.71,33710.0,,2. Faible accessibilité seule
+95543,Saint-Cyr-en-Arthies,237.0,1.72,33420.0,,2. Faible accessibilité seule
+95008,Aincourt,870.0,1.73,29170.0,,2. Faible accessibilité seule
+95101,Bray-et-Lû,957.0,1.74,27340.0,,2. Faible accessibilité seule
+95355,Magny-en-Vexin,5755.0,1.76,26490.0,15.0,2. Faible accessibilité seule
+95011,Ambleville,390.0,1.78,30820.0,,2. Faible accessibilité seule
+95309,Hodent,225.0,1.79,28970.0,,2. Faible accessibilité seule
+95210,Enghien-les-Bains,11594.0,1.79,35720.0,12.0,2. Faible accessibilité seule
+95040,Avernes,866.0,1.79,33540.0,,2. Faible accessibilité seule
+95554,Saint-Gervais,883.0,1.85,32380.0,,2. Faible accessibilité seule
+95446,Nesles-la-Vallée,1823.0,1.86,34250.0,,2. Faible accessibilité seule
+95199,Domont,16075.0,1.87,28860.0,13.0,2. Faible accessibilité seule
+95205,Écouen,7173.0,1.88,28800.0,13.0,2. Faible accessibilité seule
+95625,Us,1331.0,1.9,32170.0,,2. Faible accessibilité seule
+95183,Courdimanche,7111.0,1.91,29270.0,10.0,2. Faible accessibilité seule
+95169,Commeny,648.0,1.92,30230.0,,2. Faible accessibilité seule
+95452,Nointel,887.0,1.92,31020.0,,2. Faible accessibilité seule
+95139,La Chapelle-en-Vexin,316.0,1.92,30680.0,,2. Faible accessibilité seule
+95658,Vigny,1132.0,1.93,33420.0,,2. Faible accessibilité seule
+95308,Hérouville-en-Vexin,569.0,1.94,34290.0,,2. Faible accessibilité seule
+95271,Génicourt,515.0,1.95,33520.0,,2. Faible accessibilité seule
+95459,Nucourt,719.0,1.96,32020.0,,2. Faible accessibilité seule
+95012,Amenucourt,208.0,1.98,26690.0,,2. Faible accessibilité seule
+95675,Villeron,1672.0,1.98,28340.0,,2. Faible accessibilité seule
+95211,Ennery,2313.0,1.99,32860.0,4.0,2. Faible accessibilité seule
+95074,Boisemont,883.0,2.0,38010.0,,2. Faible accessibilité seule
+95509,Puiseux-en-France,3755.0,2.01,29330.0,9.0,2. Faible accessibilité seule
+95039,Auvers-sur-Oise,6820.0,2.01,32300.0,8.0,2. Faible accessibilité seule
+95166,Cléry-en-Vexin,467.0,2.01,31530.0,,2. Faible accessibilité seule
+95341,Livilliers,386.0,2.03,33960.0,,2. Faible accessibilité seule
+95120,Butry-sur-Oise,2242.0,2.04,31400.0,8.0,2. Faible accessibilité seule
+95323,Jouy-le-Moutier,17411.0,2.04,27790.0,13.0,2. Faible accessibilité seule
+95580,Saint-Witz,2511.0,2.07,36470.0,5.0,2. Faible accessibilité seule
+95134,Champagne-sur-Oise,5022.0,2.08,30040.0,9.0,2. Faible accessibilité seule
+95480,Parmain,5683.0,2.09,32020.0,7.0,2. Faible accessibilité seule
+95119,Buhy,327.0,2.09,28710.0,,2. Faible accessibilité seule
+95197,Deuil-la-Barre,22903.0,2.09,28160.0,14.3,2. Faible accessibilité seule
+95529,Ronquerolles,890.0,2.11,31720.0,,2. Faible accessibilité seule
+95563,Saint-Leu-la-Forêt,16047.0,2.13,32220.0,10.0,2. Faible accessibilité seule
+95078,Boissy-l'Aillerie,2114.0,2.14,31680.0,,2. Faible accessibilité seule
+95348,Longuesse,505.0,2.19,34270.0,,2. Faible accessibilité seule
+95483,Le Perchay,513.0,2.19,33720.0,,2. Faible accessibilité seule
+95058,Bernes-sur-Oise,2703.0,2.21,26160.0,12.0,2. Faible accessibilité seule
+95456,Noisy-sur-Oise,582.0,2.21,31480.0,,2. Faible accessibilité seule
+95313,L'Isle-Adam,12302.0,2.23,32270.0,10.0,2. Faible accessibilité seule
+95504,Presles,3994.0,2.24,33210.0,5.0,2. Faible accessibilité seule
+95203,Eaubonne,25934.0,2.24,30540.0,12.5,2. Faible accessibilité seule
+95541,Saint-Clair-sur-Epte,979.0,2.24,26190.0,,2. Faible accessibilité seule
+95170,Condécourt,557.0,2.26,31580.0,,2. Faible accessibilité seule
+95607,Taverny,27065.0,2.27,28590.0,12.9,2. Faible accessibilité seule
+95426,Montlignon,2966.0,2.28,36980.0,8.0,2. Faible accessibilité seule
+95353,Maffliers,1768.0,2.28,31830.0,,2. Faible accessibilité seule
+95430,Montsoult,4095.0,2.29,31730.0,7.0,2. Faible accessibilité seule
+95592,Seraincourt,1310.0,2.32,32650.0,,2. Faible accessibilité seule
+95116,Bruyères-sur-Oise,4907.0,2.32,26150.0,12.0,2. Faible accessibilité seule
+95306,Herblay-sur-Seine,31818.0,2.33,30160.0,13.2,2. Faible accessibilité seule
+95154,Chennevières-lès-Louvres,294.0,2.35,28990.0,,2. Faible accessibilité seule
+95610,Théméricourt,289.0,2.35,37550.0,,2. Faible accessibilité seule
+95582,Sannois,26772.0,2.35,27400.0,17.6,2. Faible accessibilité seule
+95388,Menucourt,6189.0,2.36,28240.0,8.0,2. Faible accessibilité seule
+95055,Bellefontaine,471.0,2.37,30380.0,,2. Faible accessibilité seule
+95487,Persan,14348.0,2.38,21410.0,25.0,3. Faible niveau de vie seul
+95612,Le Thillay,4575.0,2.61,25080.0,19.0,3. Faible niveau de vie seul
+95604,Survilliers,4154.0,2.62,25760.0,14.0,3. Faible niveau de vie seul
+95088,Bonneuil-en-France,1179.0,2.73,25090.0,,3. Faible niveau de vie seul
+95277,Gonesse,26959.0,2.96,20810.0,28.9,3. Faible niveau de vie seul
+95127,Cergy,69578.0,3.0,22560.0,24.9,3. Faible niveau de vie seul
+95572,Saint-Ouen-l'Aumône,25614.0,3.37,23920.0,22.5,3. Faible niveau de vie seul
+95424,Montigny-lès-Cormeilles,22390.0,4.27,24460.0,20.3,3. Faible niveau de vie seul
+95428,Montmorency,21677.0,2.38,32380.0,11.9,4. Ni l'un ni l'autre
+95598,Soisy-sous-Montmorency,18068.0,2.41,29460.0,14.0,4. Ni l'un ni l'autre
+95253,Frémainville,502.0,2.42,35630.0,,4. Ni l'un ni l'autre
+95555,Saint-Gratien,21297.0,2.43,26600.0,18.2,4. Ni l'un ni l'autre
+95594,Seugy,1039.0,2.43,32930.0,,4. Ni l'un ni l'autre
+95316,Jagny-sous-Bois,272.0,2.44,32430.0,,4. Ni l'un ni l'autre
+95371,Marly-la-Ville,5852.0,2.46,29220.0,9.0,4. Ni l'un ni l'autre
+95026,Asnières-sur-Oise,3128.0,2.46,31830.0,6.0,4. Ni l'un ni l'autre
+95252,Franconville,38024.0,2.47,26930.0,16.4,4. Ni l'un ni l'autre
+95641,Vémars,2986.0,2.5,28330.0,12.0,4. Ni l'un ni l'autre
+95422,Montgeroult,350.0,2.54,33700.0,,4. Ni l'un ni l'autre
+95535,Sagy,1100.0,2.55,33650.0,,4. Ni l'un ni l'autre
+95181,Courcelles-sur-Viosne,307.0,2.58,32940.0,,4. Ni l'un ni l'autre
+95014,Andilly,2691.0,2.58,32810.0,11.0,4. Ni l'un ni l'autre
+95392,Mériel,5337.0,2.58,30350.0,9.0,4. Ni l'un ni l'autre
+95652,Viarmes,5509.0,2.61,30950.0,6.0,4. Ni l'un ni l'autre
+95288,Groslay,8378.0,2.66,29630.0,14.0,4. Ni l'un ni l'autre
+95436,Mours,1680.0,2.67,31650.0,,4. Ni l'un ni l'autre
+95539,Saint-Brice-sous-Forêt,15209.0,2.68,27640.0,16.0,4. Ni l'un ni l'autre
+95149,Chaumontel,3340.0,2.69,32440.0,7.0,4. Ni l'un ni l'autre
+95257,La Frette-sur-Seine,4587.0,2.7,34690.0,9.0,4. Ni l'un ni l'autre
+95219,Ermont,29189.0,2.71,27950.0,17.6,4. Ni l'un ni l'autre
+95445,Nerville-la-Forêt,779.0,2.72,33420.0,,4. Ni l'un ni l'autre
+95369,Margency,2954.0,2.73,34450.0,7.0,4. Ni l'un ni l'autre
+95002,Ableiges,1109.0,2.75,33240.0,,4. Ni l'un ni l'autre
+95491,Le Plessis-Bouchard,8333.0,2.75,32130.0,8.0,4. Ni l'un ni l'autre
+95176,Cormeilles-en-Parisis,27086.0,2.76,32450.0,10.6,4. Ni l'un ni l'autre
+95212,Épiais-lès-Louvres,141.0,2.8,26990.0,,4. Ni l'un ni l'autre
+95476,Osny,17471.0,2.82,29260.0,14.0,4. Ni l'un ni l'autre
+95352,Luzarches,4909.0,2.85,31590.0,10.0,4. Ni l'un ni l'autre
+95094,Bouqueval,306.0,2.85,27880.0,,4. Ni l'un ni l'autre
+95450,Neuville-sur-Oise,2089.0,2.92,35300.0,,4. Ni l'un ni l'autre
+95091,Bouffémont,6565.0,2.93,28880.0,11.0,4. Ni l'un ni l'autre
+95493,Le Plessis-Luzarches,140.0,2.94,29110.0,,4. Ni l'un ni l'autre
+95527,Roissy-en-France,2682.0,2.95,27110.0,14.0,4. Ni l'un ni l'autre
+95489,Piscop,737.0,2.95,31490.0,,4. Ni l'un ni l'autre
+95331,Lassy,194.0,2.95,30130.0,,4. Ni l'un ni l'autre
+95056,Belloy-en-France,2239.0,3.09,31520.0,5.0,4. Ni l'un ni l'autre
+95365,Mareil-en-France,721.0,3.09,29460.0,,4. Ni l'un ni l'autre
+95510,Puiseux-Pontoise,593.0,3.12,31140.0,,4. Ni l'un ni l'autre
+95574,Saint-Prix,7588.0,3.14,35550.0,8.0,4. Ni l'un ni l'autre
+95633,Vaudherland,102.0,3.22,27660.0,,4. Ni l'un ni l'autre
+95051,Beauchamp,9506.0,3.26,31700.0,11.0,4. Ni l'un ni l'autre
+95218,Éragny,18723.0,3.33,27610.0,14.0,4. Ni l'un ni l'autre
+95151,Chauvry,297.0,3.43,32230.0,,4. Ni l'un ni l'autre
+95394,Méry-sur-Oise,10015.0,3.46,29380.0,12.0,4. Ni l'un ni l'autre
+95060,Bessancourt,8521.0,3.5,29730.0,10.0,4. Ni l'un ni l'autre
+95061,Béthemont-la-Forêt,426.0,3.57,36660.0,,4. Ni l'un ni l'autre
+95678,Villiers-Adam,848.0,3.62,34300.0,,4. Ni l'un ni l'autre
+95042,Baillet-en-France,1947.0,3.62,32720.0,4.0,4. Ni l'un ni l'autre
+95660,Villaines-sous-Bois,776.0,3.63,34510.0,,4. Ni l'un ni l'autre
+95241,Fontenay-en-Parisis,2220.0,3.71,28760.0,10.0,4. Ni l'un ni l'autre
+95395,Le Mesnil-Aubry,901.0,3.73,30730.0,,4. Ni l'un ni l'autre
+95409,Moisselles,1259.0,3.83,31580.0,,4. Ni l'un ni l'autre
+95256,Frépillon,3327.0,4.08,31220.0,7.0,4. Ni l'un ni l'autre
+95028,Attainville,1834.0,4.13,32800.0,,4. Ni l'un ni l'autre
+95488,Pierrelaye,10230.0,4.22,26090.0,18.0,4. Ni l'un ni l'autre
+95682,Villiers-le-Sec,198.0,4.49,28800.0,,4. Ni l'un ni l'autre
+95611,Theuville,53.0,0.99,,,Non classée
+95387,Menouville,62.0,1.19,,,Non classée
+95141,Charmont,33.0,1.66,,,Non classée
+95144,Châtenay-en-France,73.0,2.53,,,Non classée
+95492,Le Plessis-Gassot,97.0,3.41,,,Non classée
+95214,Épinay-Champlâtreux,58.0,4.11,,,Non classée
