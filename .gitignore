@@ -3,3 +3,4 @@ data/raw/*
 data/*.duckdb
 __pycache__/
 .venv/
+tmp/
