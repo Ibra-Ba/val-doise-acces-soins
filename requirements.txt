@@ -3,3 +3,4 @@ pandas
 openpyxl
 scipy
 matplotlib
+p7zip-full
