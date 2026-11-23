@@ -4,7 +4,12 @@
 la plus fragile dans le Val-d'Oise, et quelles communes cumulent faible
 accessibilité et faible niveau de vie ?
 
-> Résultat principal : [à compléter — une phrase chiffrée].
+> Résultat principal : Dans le Val-d'Oise, 31 % des habitants vivent dans une commune qui cumule faible accès au médecin et faible niveau de vie..
+
+## Carte du projet
+
+![Carte du projet](carte/typologie_95.png)
+📄 [Télécharger la carte complète au format PDF](./carte/typologie_95.pdf)
 
 ## Données
 
@@ -53,3 +58,7 @@ fichiers réellement téléchargés.
 - La typologie est relative au département (seuils = médianes du Val-d'Oise).
 - Moyennes d'APL pondérées par la population standardisée, comptes d'habitants
   sur la population totale, conformément à la note DREES.
+
+
+[def]: assets/carte-1.png
+[def2]: carte.pdf
